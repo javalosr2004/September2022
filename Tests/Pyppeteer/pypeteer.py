@@ -17,6 +17,7 @@ async def launch_browser(browser, keyword):
     #find the titles
     titles = await page.querySelectorAll('h2')
     
+    
 
     #extract titles
     for title in titles:

@@ -44,14 +44,18 @@ let example_conversion = 20
 example_conversion = String(example_conversion) //converts 20 into "20"
 
 
+<<<<<<< HEAD
 let apple = '2', banana = '3'
 
 console.log(Number(apple + banana))
 
+=======
+>>>>>>> 51bcf6b0c0a71b0113e6afca7041e060d9d41ddc
 /*
 String
 Number
 Boolean
+<<<<<<< HEAD
 */
 
 /*
@@ -64,4 +68,6 @@ Operators:
     Remainder %,
     Exponentiation **.
 
+=======
+>>>>>>> 51bcf6b0c0a71b0113e6afca7041e060d9d41ddc
 */

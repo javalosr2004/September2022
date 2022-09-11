@@ -1,4 +1,5 @@
 from selenium import webdriver
+<<<<<<< HEAD
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
@@ -52,3 +53,7 @@ search_box.send_keys(keyword)
 time.sleep(3)
 enter_box = driver.find_element(By.CSS_SELECTOR, '#btnSearch')
 enter_box.click()
+=======
+from webdriver_manager.chrome import ChromeDriverManager
+
+>>>>>>> 51bcf6b0c0a71b0113e6afca7041e060d9d41ddc
